@@ -32,7 +32,9 @@ app.layout = html.Div([
         labelStyle={'display': 'inline-block', 'margin-right': '20px'}
     ),
     
-    dcc.Graph(id='sales-chart')
+    dcc.Graph(id='sales-chart'),
+    html.H3("The question is : Were sales higher before or after the Pink Morsel price increase on the 15th of January, 2021?"),
+    html.H3("The answer is : Sales were higher after the Pink Morsel price increase on the 15th of January, 2021"),
 ])
 
 # Define callback to update the chart based on selected region
