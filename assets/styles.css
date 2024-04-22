@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5d5d5; /* Light gray background */
+}
+
+/* Header */
+h1 {
+    color: #ff00d9; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Radio button */
+.radio-item {
+    margin-right: 20px;
+}
+
+/* Chart */
+#sales-chart {
+    margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #05ef43; /* Gray text */
+}
